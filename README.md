@@ -43,7 +43,12 @@ Follow these steps to compile and run the Recipe Finder app:
      flutter pub get
      ```
 
-5. Run the app:
+5. Set up Firebase Authentication:
+   - Go to the [Firebase Console](https://console.firebase.google.com/) and create a new Firebase project (if you haven't already).
+   - Enable the Firebase Authentication service for your project.
+   - Obtain the Firebase configuration file (google-services.json for Android or GoogleService-Info.plist for iOS) and place it in the respective platform folders: `android/app` for Android or `ios/Runner` for iOS.
+
+6. Run the app:
    - Connect a device or start an emulator.
    - Run the following command to build and launch the app on your device/emulator:
      ```
@@ -55,7 +60,6 @@ Follow these steps to compile and run the Recipe Finder app:
      ```
      flutter run -d emulator-5554
      ```
-
 That's it! You should now be able to compile and run the Recipe Finder app using the provided code.
 
 If you encounter any issues or need further assistance, feel free to reach out.
